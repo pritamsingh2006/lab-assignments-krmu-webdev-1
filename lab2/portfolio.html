@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,
+    initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+</head>
+
+<body>
+    <header id="container1">
+        <h1 class="headH1">Pritam singh</h1>
+        <nav id="container2">
+            <a href="#About" class="link">About</a>
+            <a href="#Projects" class="link">Projects</a>
+            <a href="#skill" class="link">Technical Skills</a>
+            <a href="#Contact" class="link">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="About">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                Hello! I am Pritam a web development student. This is my personal portfolio website.
+            </p>
+            <h1>About Me</h1>
+            <img src="/myphoto.jpg" alt="Pritam singh" title="pritam singh">
+            <p>I am from churu rajisthan, currently persuing B.tech from K.R. mangalam university. <br>I love to Dance
+                and play everykind of game you can imagine. <br>I am passionate about learnin title="pritag web
+                development and building
+                creative projects.</p>
+        </section>
+        <hr>
+        <section id="Projects">
+            <h1>My projects</h1>
+            <ul class="pro">
+                <li>
+                    <h4>Portfolio Website:</h4> A personal one-page website to showcase your bio, skills , and contact
+                    details.
+                </li>
+                <li>
+                    <h4>Registration Form:</h4> A simple A simple form asked with all the detail of the user with a
+                    submit button
+                </li>
+                <li>
+                    <h4>Complex Table:</h4> A basic Table containing Grade of student with the Grading system
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section id="skill">
+            <h1>Technical Skills</h1>
+            <table>
+                <thead>
+                    <tr class="cell">
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id="Contact">
+            <h1>Contact Me</h1>
+            <table>
+                <form>
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Name</label></td>
+                            <td><input type="text" id="name" placeholder="Enter your name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" placeholder="Enter your email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="no.">Mobile no.</label></td>
+                            <td><input type="number" id="no." pattern="[6-9][0-9]{9}"
+                                    placeholder="Enter a 10 digit mobile no."></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea name="" id="message" placeholder="Enter your message"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="button"><button type="submit" id="button">Send</button></td>
+                        </tr>
+                    </tbody>
+                </form>
+            </table>
+        </section>
+        <section>
+            <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆ Back to the Top</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Pritam. Right reserved</p>
+    </footer>
+</body>
+
+</html>
